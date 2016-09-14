@@ -1,0 +1,7 @@
+mongo/data/
+.idea/
+node_modules/
+*.zip
+sjcl/
+client.min.js
+distribution/
