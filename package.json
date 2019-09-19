@@ -1,0 +1,25 @@
+{
+  "name": "Pinecone-Cache",
+  "version": "1.0.0",
+  "description": "The mongo database for pinceone",
+  "bugs": {
+    "url": "https://github.com/JimBarrows/Pinecone-Cache/issues"
+  },
+  "scripts": {
+    "docker:run": "docker run --detach -p6379:6379 --name pinecone-redis pinecone/redis",
+    "run": "npm run docker:run; ",
+    "stop": "docker stop pinecone-redis",
+    "docker:build": "docker build -t pinecone/redis ."
+  },
+  "author": {
+    "name": "Jim Barrows",
+    "email": "Jim.Barrows@gmail.com"
+  },
+  "contributors": [],
+  "license": "Apache 2.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JimBarrows/Pinecone-Cache.git"
+  }
+}
