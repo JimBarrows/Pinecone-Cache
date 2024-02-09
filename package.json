@@ -1,7 +1,7 @@
 {
   "name": "Pinecone-Cache",
   "version": "1.0.0",
-  "description": "The mongo database for pinceone",
+  "description": "The cache for node",
   "bugs": {
     "url": "https://github.com/JimBarrows/Pinecone-Cache/issues"
   },
